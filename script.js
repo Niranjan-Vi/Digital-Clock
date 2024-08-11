@@ -1,8 +1,4 @@
 
-
-
-
-
 setInterval(() => {
     date=new Date();
     year=date.getFullYear();
@@ -12,13 +8,6 @@ setInterval(() => {
     let ivattinDina = date.toLocaleDateString('en-US', {
         weekday: 'long', // "Monday"
     });
-
-
-
-
-
-
-
     hours=date.getHours();
     minutes=date.getMinutes();
     seconds=date.getSeconds();
