@@ -137,7 +137,7 @@ body{
     }
 }
 /* ------------Mobile View---------- */
-@media (max-width:300px) {
+@media (max-width:425px) {
     html{
         overflow: hidden;
     }
@@ -154,12 +154,12 @@ body{
       width: 90%;
     }
     .inner-display h2{
-        font-size: 60px;
+        font-size: 40px;
     }
     .cont h3{
-        font-size: 30px;
+        font-size: 20px;
     }
     .cont h2{
-        font-size: 30px;
+        font-size: 20px;
     }
 }
